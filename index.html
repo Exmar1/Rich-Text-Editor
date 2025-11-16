@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Project | Text Editor</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="app">
+			<div class="container">
+				<div class="buttons-container">
+					<!-- Format -->
+					<button id="bold" class="option-button format">
+						<i class="fa-solid fa-bold"></i>
+					</button>
+					<button id="italic" class="option-button format">
+						<i class="fa-solid fa-italic"></i>
+					</button>
+					<button id="underline" class="option-button format">
+						<i class="fa-solid fa-underline"></i>
+					</button>
+					<button id="strikethrough" class="option-button format">
+						<i class="fa-solid fa-strikethrough"></i>
+					</button>
+
+					<!-- Script -->
+					<button id="superscript" class="option-button script">
+						<i class="fa-solid fa-superscript"></i>
+					</button>
+					<button id="subrscript" class="option-button script">
+						<i class="fa-solid fa-subscript"></i>
+					</button>
+
+					<!-- List -->
+					<button id="insertOrderedList" class="option-button list">
+						<i class="fa-solid fa-list-ol"></i>
+					</button>
+					<button id="insertUnorderList" class="option-button list">
+						<i class="fa-solid fa-list"></i>
+					</button>
+
+					<!-- Undo/Redo -->
+					<button id="undo" class="option-button undo">
+						<i class="fa-solid fa-rotate-left"></i>
+					</button>
+					<button id="redo" class="option-button undo">
+						<i class="fa-solid fa-rotate-right"></i>
+					</button>
+
+					<!-- Link -->
+					<button id="createLink" class="option-button link">
+						<i class="fa-solid fa-link"></i>
+					</button>
+					<button id="unlink" class="option-button link">
+						<i class="fa-solid fa-unlink"></i>
+					</button>
+
+					<!-- Alignment -->
+					<button id="justifyLeft" class="option-button align">
+						<i class="fa-solid fa-align-left"></i>
+					</button>
+					<button id="justifyCenter" class="option-button align">
+						<i class="fa-solid fa-align-center"></i>
+					</button>
+					<button id="justifyRight" class="option-button align">
+						<i class="fa-solid fa-align-right"></i>
+					</button>
+					<button id="justifyFull" class="option-button align">
+						<i class="fa-solid fa-align-justify"></i>
+					</button>
+					<button id="indent" class="option-button spacing">
+						<i class="fa-solid fa-indent"></i>
+					</button>
+					<button id="outdent" class="option-button spacing">
+						<i class="fa-solid fa-outdent"></i>
+					</button>
+
+					<!-- Headings -->
+					<select id="formatBlock" class="adv-option-button">
+						<option value="H1">H1</option>
+						<option value="H2">H2</option>
+						<option value="H3">H3</option>
+						<option value="H4">H4</option>
+						<option value="H5">H5</option>
+						<option value="H6">H6</option>
+					</select>
+
+					<!-- Fonts -->
+					<select id="fontName" class="adv-option-button">
+						<option value="Arial">Arial</option>
+						<option value="Times New Roman">Times New Roman</option>
+						<option value="Verdana">Verdana</option>
+						<option value="Garamond">Garamond</option>
+						<option value="Georgia">Georgia</option>
+						<option value="Courier New">Courier New</option>
+						<option value="Poppins">Poppins</option>
+						<option value="cursive">cursive</option>
+					</select>
+					<select id="fontSize" class="adv-option-button">
+						<option value="1px">1</option>
+						<option value="2px">2</option>
+						<option value="3px">3</option>
+						<option value="4px">4</option>
+						<option value="5px">5</option>
+						<option value="6px">6</option>
+						<option value="7px">7</option>
+					</select>
+
+					<!-- Color -->
+					<div class="input-wrapper">
+						<input type="color" id="foreColor" class="adv-option-button" />
+						<label for="foreColor">Font Color</label>
+					</div>
+					<div class="input-wrapper">
+						<input type="color" id="backColor" class="adv-option-button" />
+						<label for="backColor">Highlight Color</label>
+					</div>
+				</div>
+				<div id="TextInput" contenteditable="true"></div>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
