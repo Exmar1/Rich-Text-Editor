@@ -75,7 +75,7 @@ MIT License — свободное использование и модифик�
 
 ---
 
-<div align="center"> <sub>Build something great. Deploy anywhere.</sub> </div> ```
+``` <div align="center"> <sub>Build something great. Deploy anywhere.</sub> </div> ```
 
 ---
 
