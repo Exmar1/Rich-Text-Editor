@@ -45,12 +45,9 @@ Text Editor — это простой, быстрый и функциональ�
 ---
 
 ## Demo
-
-> Insert your GIF or screenshot here  
-> (пример:)
 >
 > ```md
-> ![Demo](./assets/demo.gif)
+> ![Demo](demo.png)
 > ```
 
 ---
