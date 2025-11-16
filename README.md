@@ -60,11 +60,27 @@ Text Editor — это простой, быстрый и функциональ�
 
 ---
 
-## Project Structure
-  ├── index.html
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ └── js/
-│ └── main.js
-└── README.md
+## Getting Started
+
+Clone the project and open it locally:
+
+```bash
+git clone https://github.com/your-username/text-editor
+cd text-editor
+Просто открой index.html в браузере
+```
+---
+
+MIT License — свободное использование и модификация проекта.
+
+---
+
+<div align="center"> <sub>Build something great. Deploy anywhere.</sub> </div> ```
+
+---
+
+👨‍💻 Автор
+
+Exmar — Fullstack Developer
+
+📧 Telegram: @Exmar1
