@@ -61,4 +61,10 @@ Text Editor — это простой, быстрый и функциональ�
 ---
 
 ## Project Structure
-
+  ├── index.html
+├── assets/
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── main.js
+└── README.md
